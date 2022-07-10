@@ -6,3 +6,4 @@ cvlib
 streamlit
 streamlit_webrtc
 tensorflow
+opencv-python-headless
