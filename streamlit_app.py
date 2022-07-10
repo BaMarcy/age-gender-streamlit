@@ -16,10 +16,10 @@ import torch.nn as nn
 import cvlib as cv
 import cv2
 
-st.title('Real-Time Age and Gender Estimation with PyTorch')
+st.title('Real-Time Age and Gender Detection with PyTorch')
 st.write("[deepworker.net](http://deepworker.net/)")
 st.write("[GitHub](https://github.com/BaMarcy/age_gender_predictor)")
-st.write("This app runs in a Docker container and hosted on Heroku.")
+#st.write("This app runs in a Docker container and hosted on Heroku.")
 
 class ageGenderClassifier(nn.Module):
     """
